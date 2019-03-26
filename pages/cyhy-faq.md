@@ -1,3 +1,8 @@
+---
+layout: base
+title: Cyber Hygiene F.A.Q.
+---
+
 # Cyber Hygiene F.A.Q.
 
 * [What is the basic process of the Cyber Hygiene Vulnerability Scanning program?](#what-is-the-basic-process-of-the-cyber-hygiene-vulnerability-scanning-program)
