@@ -1,6 +1,8 @@
-* [What is the basic process of the Cyber Hygiene Vulnerability Scanning program?](#What-is-the-basic-process-of-the-Cyber-Hygiene-Vulnerability-Scanning-program?)
-* [We would like to add recipients to the reports distro list, how can we add them?](#We-would-like-to-add-recipientes-to-the-reports-distro-list,-how-can-we-add-them?)
-* [When does the Cyber Hygiene Vulnerability scan start? ](#When-does-the-Cyber-Hygiene-Vulnerability-scan-start?)
+# Cyber Hygiene F.A.Q.
+
+* [What is the basic process of the Cyber Hygiene Vulnerability Scanning program?](#what-is-the-basic-process-of-the-cyber-hygiene-vulnerability-scanning-program)
+* [We would like to add recipients to the reports distro list, how can we add them?](#we-would-like-to-add-recipients-to-the-reports-distro-list-how-can-we-add-them)
+* [When does the Cyber Hygiene Vulnerability scan start?](#when-does-the-cyber-hygiene-vulnerability-scan-start)
 * [How does DHS protect the confidentiality of the report?](#How-does-DHS-protect-the-confidentiality-of-the-report?)
 * [What information does DHS disclose about the participants of the program?  Would our agency be publicly identified as a participant?](#What-information-does-DHS-disclose-about-the-participants-of-the-program?-Would-our-agency-be-publicly-identified-as-a-participant?)
 * [Who/What entities have access to the findings of the reports?](#Who/What-entities-have-access-to-the-findings-of-the-reports?)
@@ -58,8 +60,6 @@
 * [Can email authentication hinder my organization's ability to deliver email?](#Can-email-authentication-hinder-my-organization's-ability-to-deliver-email?)
 * [What is the logic behind determining BOD 18-01 Email Security Compliance?](#What-is-the-logic-behind-determining-BOD-18-01-Email-Security-Compliance?)
 
--------------------------- CyHy FAQ Start; B.Williams_March 2019 Answers (59) -----------------------------------
-
 #### What is the basic process of the Cyber Hygiene Vulnerability Scanning program?
 NCATS scans for and reports on vulnerabilities that are detectable from outside your agency's network. 'One major purpose of Cyber Hygiene is proactive identification of vulnerabilities directly accessible for exploitation by an external party from the Internet. 'The idea is that we find and report on things from a perspective similar to that of an attacker. 'This perspective enables us to better gauge risk and exposure and inform urgency of response to threats and vulnerabilities.
 
@@ -69,7 +69,7 @@ NCATS scans for and reports on vulnerabilities that are detectable from outside 
 
  ' ' Any change requests to modify scope, technical POCs, where we distribute your reports to, or false positive assertions should be sent to NCATS@hq.dhs.gov. 'That is also the place to send any questions you may have regarding the report, its findings, or anything else we can help with.
 
-#### We would like to add recipientes to the reports distro list, how can we add them?
+#### We would like to add recipients to the reports distro list, how can we add them?
 If you intend to have your report sent to more than one person or group inside your organization, we request that you set up a distribution list within your organization.  This allows you, as the customer, to manage the list and add/remove'people as necessary.  If you'll be the only recipient, we'll just mail reports directly to you.
 
 #### When does the Cyber Hygiene Vulnerability scan start?
