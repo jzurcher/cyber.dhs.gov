@@ -10,7 +10,7 @@ title: Cyber Hygiene F.A.Q.
 * [When does the Cyber Hygiene Vulnerability scan start?](#when-does-the-cyber-hygiene-vulnerability-scan-start)
 * [How does DHS protect the confidentiality of the report?](#How-does-DHS-protect-the-confidentiality-of-the-report?)
 * [What information does DHS disclose about the participants of the program?  Would our agency be publicly identified as a participant?](#What-information-does-DHS-disclose-about-the-participants-of-the-program?-Would-our-agency-be-publicly-identified-as-a-participant?)
-* [Who/What entities have access to the findings of the reports?](#Who/What-entities-have-access-to-the-findings-of-the-reports?)
+* [Who/What entities have access to the findings of the reports?](#whowhat-entities-have-access-to-the-findings-of-the-reports)
 * [How does DHS anonymize the data collected for use in supplemental reports?](#How-does-DHS-anonymize-the-data-collected-for-use-in-supplemental-reports?)
 * [On page two in the Cyber Hygiene agreement you mention 'You accept that your Agency bears the risk to its systems and networks described above.' Can you help me understand your definition of this line? If the scan is non-intrusive, then what risks would?](#On-page-two-in-the-Cyber-Hygiene-agreement-you-mention-'You-accept-that-your-Agency-bears-the-risk-to-its-systems-and-networks-described-above.'-Can-you-help-me-understand-your-definition-of-this-line?-If-the-scan-is-non-intrusive,-then-what-risks-would?)
 * [Are there any baseline statistics available that show of the average number of vulnerabilities per organization / host and the average days to remediate?](#Are-there-any-baseline-statistics-available-that-show-of-the-average-number-of-vulnerabilities-per-organization/host-and-the-average-days-to-remediate?)
