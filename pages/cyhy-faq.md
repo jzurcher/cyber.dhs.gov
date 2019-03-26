@@ -8,7 +8,7 @@ title: Cyber Hygiene F.A.Q.
 * [What is the basic process of the Cyber Hygiene Vulnerability Scanning program?](#what-is-the-basic-process-of-the-cyber-hygiene-vulnerability-scanning-program)
 * [We would like to add recipients to the reports distro list, how can we add them?](#we-would-like-to-add-recipients-to-the-reports-distro-list-how-can-we-add-them)
 * [When does the Cyber Hygiene Vulnerability scan start?](#when-does-the-cyber-hygiene-vulnerability-scan-start)
-* [How does DHS protect the confidentiality of the report?](#How-does-DHS-protect-the-confidentiality-of-the-report?)
+* [How does DHS protect the confidentiality of the report?](#how-does-dhs-protect-the-confidentiality-of-the-report)
 * [What information does DHS disclose about the participants of the program?  Would our agency be publicly identified as a participant?](#What-information-does-DHS-disclose-about-the-participants-of-the-program?-Would-our-agency-be-publicly-identified-as-a-participant?)
 * [Who/What entities have access to the findings of the reports?](#whowhat-entities-have-access-to-the-findings-of-the-reports)
 * [How does DHS anonymize the data collected for use in supplemental reports?](#How-does-DHS-anonymize-the-data-collected-for-use-in-supplemental-reports?)
