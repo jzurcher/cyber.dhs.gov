@@ -5,6 +5,8 @@ title: Cyber Hygiene F.A.Q.
 
 # Cyber Hygiene F.A.Q.
 
+This quick guide provides answers to the most frequest questions sent by Cyber Hygiene customers looking for more infomation and details related to this scanning service.   
+
 * [What is the basic process of the Cyber Hygiene Vulnerability Scanning program?](#what-is-the-basic-process-of-the-cyber-hygiene-vulnerability-scanning-program)
 * [We would like to add recipients to the reports distro list, how can we add them?](#we-would-like-to-add-recipients-to-the-reports-distro-list-how-can-we-add-them)
 * [When does the Cyber Hygiene Vulnerability scan start?](#when-does-the-cyber-hygiene-vulnerability-scan-start)
