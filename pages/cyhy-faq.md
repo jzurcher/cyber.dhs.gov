@@ -238,7 +238,7 @@ Agencies can make requests for IPs to be added/removed, but we do not remove dom
 '
 '
 
-#### Why there are some hosts not showing up on the report?
+#### Why are there some hosts not showing up on the report?
 Host count can fluctuate for the following reasons:
 1) Your IP space is significantly large enough that we are unable to complete a full rescan of all of your hosts in between weekly reports.
 2) After the initial scan of your entire IP space, we found some hosts to be ""non-responsive"" (e.g., our scans are blocked by host or network filters, the device is down for maintenance, packets are dropped or lost en route, etc.). All ""non-responsive"" hosts are marked for re-scan in 90 days. Upon rescan, host count may jump as we detect new live hosts that were previously dark.
