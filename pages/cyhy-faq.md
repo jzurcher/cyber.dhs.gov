@@ -35,7 +35,7 @@ This quick guide provides answers to the most frequest questions sent by Cyber H
 * [Do you know when you will be able to scan IPv6 space?](#do-you-know-when-you-will-be-able-to-scan-ipv6-space)
 * [I am seeing fluctuations in host counts, why is that?](#i-am-seeing-fluctuations-in-host-counts-why-is-that)
 * [OS MISIDENTIFICATION and NMAP.](#os-misidentification-and-nmap)
-* [NCATS/CyHy Authority To Opperate.](#ncatscyhy-authority-to-opperate)
+* [NCATS/CyHy Authority To Operate.](#ncatscyhy-authority-to-operate)
 * [Are there any risks associated with network scanning?](#are-there-any-risks-associated-with-network-scanning)
 * [How long does the scanning usually take? ](#how-long-does-the-scanning-usually-take)
 * [Why can't you scan domains?](#why-cant-you-scan-domains)
@@ -189,7 +189,7 @@ If Nmap is wrong and you'd be willing to help out the security ecosystem, we'd e
 
 (We'd love to hear back from you if you have success doing this! Your contributions to the tool will get incorporated into Nmap, and we generally stay current with the latest versions.)
 
-#### NCATS/CyHy Authority To Opperate
+#### NCATS/CyHy Authority To Operate
 DHS's National Cybersecurity and Communications Integration Center (NCCIC) is authorized by statute to share cybersecurity information and provide cybersecurity technical assistance, risk management support, and incident response capabilities to both federal and non-federal entities (including private companies) upon the entity's request. 'Our Cyber Hygiene scanning services relate to these authorities. 'Our work with non-Federal entities in this arena is purely voluntary, the NCCIC is not a regulator, and the National Cybersecurity Protection Act of 2014 states that no private entity is obligated by these authorities to request or receive technical assistance or implement any DHS recommendations.'6 U.S. Code ' 148
 
 
