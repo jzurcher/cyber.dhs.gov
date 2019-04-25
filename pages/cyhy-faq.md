@@ -1,8 +1,3 @@
----
-layout: base
-title: Cyber Hygiene F.A.Q.
----
-
 # Cyber Hygiene F.A.Q.
 
 This quick guide provides answers to the most frequest questions sent by Cyber Hygiene customers looking for more infomation and details related to this scanning service.   
