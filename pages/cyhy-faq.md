@@ -205,10 +205,10 @@ The total scan time depends on:
 We test in stages: first to look for active hosts (i.e. are any services running in the top 30 ports?), then ' if services are detected'to look for services over a larger number of ports, and then to test all active hosts for known vulnerabilities.
 
 After the initial scan is complete, we then re-scan periodically based on the level of vulnerability severity detected. Hosts with no detected services we classify as 'dark space' and don't rescan for another ~90 days. Active hosts with no vulnerabilities are rescanned once every 7 days. Hosts with vulnerabilities are scanned according to the following schedule:
-Critical - 12 hours
-High - 24 hours
-Medium - 4 days
-Low - 6 days
+* Critical - 12 hours
+* High - 24 hours
+* Medium - 4 days
+* Low - 6 days
 
 This is all to say that your scan time is dependent on what we find. Could be a few minutes, could be an hour or more.'
 
