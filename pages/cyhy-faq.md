@@ -19,7 +19,7 @@ This quick guide provides answers to the most frequest questions sent by Cyber H
 * [Can we change the language on the NCATS legal agreements? ?](#can-we-change-the-language-on-the-ncats-legal-agreements)
 * [Can NCATS sign a Non-Disclosure Agreement (NDA)?](#can-ncats-sign-a-non-disclosure-agreement-nda)
 * [Why are there more Mitigated Vulnerabilities than Detected Vulnerabilities in a single year?](#why-are-there-more-mitigated-vulnerabilities-than-detected-vulnerabilities-in-a-single-year)
-* [What does CIDR notation means?](#what-does-cidr-notation-means)
+* [What does CIDR notation mean?](#what-does-cidr-notation-mean)
 * [Are my reports subject to FOIA requests?](#are-my-reports-subject-to-foia-requests)
 * [Can I have a copy of our  counter signed ROE?](#can-i-have-a-copy-of-our--counter-signed-roe)
 * [I would like to understand the SecureDNS Validation report error correction process.](#i-would-like-to-understand-the-securedns-validation-report-error-correction-process)
@@ -111,7 +111,7 @@ The Department of Homeland'Security'(DHS)'Office of General Council'does not all
 #### Why are there more Mitigated Vulnerabilities than Detected Vulnerabilities in a single year?
 Detected Vulnerabilities are carried over from year-to-year, so the number of vulnerabilities'mitigated in a year can be greater than the number of vulnerabilities detected in that year.
 
-#### What does CIDR notation means?
+#### What does CIDR notation mean?
 
 CIDR notation is a simpler way to express a range of IP addresses. For example, if you are providing a range of 10.0.0.0 - 10.0.0.255 you can provide it in CIDR notation which would be 10.0.0.0/24. The number after the slash is the bit mask for the network. It tells you how many bits are the same for each IP on the subnet.' There are free open-source tools that can help you convert IPv4 Conversion to CIDR.
 
