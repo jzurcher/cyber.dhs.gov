@@ -25,7 +25,7 @@ This quick guide provides answers to the most frequest questions sent by Cyber H
 * [I would like to understand the SecureDNS Validation report error correction process.](#i-would-like-to-understand-the-securedns-validation-report-error-correction-process)
 * [DNSSEC address conflict canned language.](#dnssec-address-conflict-canned-language)
 * [Can we report a potential false positive?](#can-we-report-a-potential-false-positive)
-* [Will you add our private certificate authory in your root store?/ Trust Issues.](#will-you-add-our-private-certificate-authory-in-your-root-store-trust-issues)
+* [Will you add our private certificate authority in your root store?/ Trust Issues.](#will-you-add-our-private-certificate-authority-in-your-root-store-trust-issues)
 * [Why would a vulnerability appear in one scan and not another?](#why-would-a-vulnerability-appear-in-one-scan-and-not-another)
 * [Certificate Authorities (CA)](#certificate-authorities-ca)
 * [M-15-01 Semi-annual Data Request.](#m-15-01-semi-annual-data-request)
@@ -131,7 +131,7 @@ It's our intent to merge the DNSSEC report into the Cyber Hygiene report by the 
 #### Can we report a potential false positive?
 Thank you for notifying NCATS of the potential false positive. The Cyber Hygiene (CyHy) team has the ability to mark the result as a false positive. Please go to the Attachment section of your Cyber Hygiene report and fill out the False Positive form attached. 'If you need to attach additional evidence of your analysis, please send in an email attachment (word, txt, or excel are preferred). 'The CyHy team will review the analysis upon receipt. 'You may still see the IP on the report but it will be in the False Positive findings. However, if the'continue to see the vulnerability on the following report, please email NCATS@hq.dhs.gov.
 
-#### Will you add our private certificate authory in your root store?/ Trust Issues.
+#### Will you add our private certificate authority in your root store?/ Trust Issues.
 NCATS/Cyber Hygiene'does not accept private certificate authorities (CA) for submission into our root store. This is a deliberate decision in order to support the HTTPS-only mandate (M-15-13). Our scanner uses the Mozilla root store, which contains unambiguously-public certificate authorities.
 
 '
