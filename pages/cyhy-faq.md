@@ -11,57 +11,56 @@ This quick guide provides answers to the most frequest questions sent by Cyber H
 6. [Who/What entities have access to the findings of the reports?](#whowhat-entities-have-access-to-the-findings-of-the-reports)
 7. [How does DHS anonymize the data collected for use in supplemental reports?](#how-does-dhs-anonymize-the-data-collected-for-use-in-supplemental-reports)
 8. [On page two in the Cyber Hygiene agreement you mention 'You accept that your Agency bears the risk to its systems and networks described above.' Can you help me understand your definition of this line? If the scan is non-intrusive, then what risks would?](#on-page-two-in-the-cyber-hygiene-agreement-you-mention-you-accept-that-your-agency-bears-the-risk-to-its-systems-and-networks-described-above-can-you-help-me-understand-your-definition-of-this-line-if-the-scan-is-non-intrusive-then-what-risks-would)
-9. [Are there any baseline statistics available that show of the average number of vulnerabilities per organization / host and the average days to remediate?](#are-there-any-baseline-statistics-available-that-show-of-the-average-number-of-vulnerabilities-per-organization--host-and-the-average-days-to-remediate)
-10. [Can we change the language on the NCATS legal agreements? ?](#can-we-change-the-language-on-the-ncats-legal-agreements)
-11. [Can NCATS sign a Non-Disclosure Agreement (NDA)?](#can-ncats-sign-a-non-disclosure-agreement-nda)
-12. [Why are there more Mitigated Vulnerabilities than Detected Vulnerabilities in a single year?](#why-are-there-more-mitigated-vulnerabilities-than-detected-vulnerabilities-in-a-single-year)
-13. [What does CIDR notation mean?](#what-does-cidr-notation-mean)
-14. [Are my reports subject to FOIA requests?](#are-my-reports-subject-to-foia-requests)
-15. [Can I have a copy of our  counter signed ROE?](#can-i-have-a-copy-of-our--counter-signed-roe)
-16. [I would like to understand the SecureDNS Validation report error correction process.](#i-would-like-to-understand-the-securedns-validation-report-error-correction-process)
-17. [DNSSEC address conflict canned language.](#dnssec-address-conflict-canned-language)
-18. [Can we report a potential false positive?](#can-we-report-a-potential-false-positive)
-19. [Will you add our private certificate authority in your root store?/ Trust Issues.](#will-you-add-our-private-certificate-authority-in-your-root-store-trust-issues)
-20. [Why would a vulnerability appear in one scan and not another?](#why-would-a-vulnerability-appear-in-one-scan-and-not-another)
-21. [Certificate Authorities (CA)](#certificate-authorities-ca)
-22. [M-15-01 Semi-annual Data Request.](#m-15-01-semi-annual-data-request)
-23. [M-15-01.](#m-15-01)
-24. [We have noticed scanning activity coming from 64.69.57.0/24 and or AWS. Can you confirm this traffic?](#we-have-noticed-scanning-activity-coming-from-646957024-and-or-aws-can-you-confirm-this-traffic)
-25. [Can you scan domains/AWS (Dynamic IP addresses/Cloud-hosted resources)?](#can-you-scan-domainsaws-dynamic-ip-addressescloud-hosted-resources)
-26. [Do you know when you will be able to scan IPv6 space?](#do-you-know-when-you-will-be-able-to-scan-ipv6-space)
-27. [I am seeing fluctuations in host counts, why is that?](#i-am-seeing-fluctuations-in-host-counts-why-is-that)
-28. [OS MISIDENTIFICATION and NMAP.](#os-misidentification-and-nmap)
-29. [NCATS/CyHy Authority To Operate.](#ncatscyhy-authority-to-operate)
-30. [Are there any risks associated with network scanning?](#are-there-any-risks-associated-with-network-scanning)
+9. [Can the testing be scheduled for a particular time-period?](#can-the-testing-be-scheduled-for-a-particular-time-period)
+10. [Are there any baseline statistics available that show of the average number of vulnerabilities per organization / host and the average days to remediate?](#are-there-any-baseline-statistics-available-that-show-of-the-average-number-of-vulnerabilities-per-organization--host-and-the-average-days-to-remediate)
+11. [Can we change the language on the NCATS legal agreements? ?](#can-we-change-the-language-on-the-ncats-legal-agreements)
+12. [Can NCATS sign a Non-Disclosure Agreement (NDA)?](#can-ncats-sign-a-non-disclosure-agreement-nda)
+13. [Why are there more Mitigated Vulnerabilities than Detected Vulnerabilities in a single year?](#why-are-there-more-mitigated-vulnerabilities-than-detected-vulnerabilities-in-a-single-year)
+14. [What does CIDR notation mean?](#what-does-cidr-notation-mean)
+15. [Are my reports subject to FOIA requests?](#are-my-reports-subject-to-foia-requests)
+16. [Can I have a copy of our  counter signed ROE?](#can-i-have-a-copy-of-our--counter-signed-roe)
+17. [I would like to understand the SecureDNS Validation report error correction process.](#i-would-like-to-understand-the-securedns-validation-report-error-correction-process)
+18. [DNSSEC address conflict canned language.](#dnssec-address-conflict-canned-language)
+19. [Can we report a potential false positive?](#can-we-report-a-potential-false-positive)
+20. [Will you add our private certificate authority in your root store?/ Trust Issues.](#will-you-add-our-private-certificate-authority-in-your-root-store-trust-issues)
+21. [Why would a vulnerability appear in one scan and not another?](#why-would-a-vulnerability-appear-in-one-scan-and-not-another)
+22. [Certificate Authorities (CA)](#certificate-authorities-ca)
+23. [M-15-01 Semi-annual Data Request.](#m-15-01-semi-annual-data-request)
+24. [M-15-01.](#m-15-01)
+25. [We have noticed scanning activity coming from 64.69.57.0/24 and or AWS. Can you confirm this traffic?](#we-have-noticed-scanning-activity-coming-from-646957024-and-or-aws-can-you-confirm-this-traffic)
+26. [Can you scan domains/AWS (Dynamic IP addresses/Cloud-hosted resources)?](#can-you-scan-domainsaws-dynamic-ip-addressescloud-hosted-resources)
+27. [Do you know when you will be able to scan IPv6 space?](#do-you-know-when-you-will-be-able-to-scan-ipv6-space)
+28. [I am seeing fluctuations in host counts, why is that?](#i-am-seeing-fluctuations-in-host-counts-why-is-that)
+29. [OS MISIDENTIFICATION and NMAP.](#os-misidentification-and-nmap)
+30. [NCATS/CyHy Authority To Operate.](#ncatscyhy-authority-to-operate)
 31. [How long does the scanning usually take? ](#how-long-does-the-scanning-usually-take)
 32. [Why can't you scan domains?](#why-cant-you-scan-domains)
 33.  [I am receiving reports about service impacts due to CyHy scanning against one of our Agency VPN systems?](#i-am-receiving-reports-about-service-impacts-due-to-cyhy-scanning-against-one-of-our-agency-vpn-systems)
 34.  [Why are we being hit with so much traffic?](#why-are-we-being-hit-with-so-much-traffic)
 35.  [What IP addresses do we send you?](#what-ip-addresses-do-we-send-you)
-36.  [Can the testing be scheduled for a particular time-period?](#can-the-testing-be-scheduled-for-a-particular-time-period)
-37.  [What do you define as a "host"?](#what-do-you-define-as-a-host)
-38.  [Why is my report blank?](#why-is-my-report-blank)
-39.  [I would like this domain removed from my HTTPS Report.](#i-would-like-this-domain-removed-from-my-https-report)
-40.  [Why are there some hosts not showing up on the report?](#why-are-there-some-hosts-not-showing-up-on-the-report)
-41.  [I am concerned with seeing one of our public host addresses being identified on the geo-location map as being in the state of Kansas. Would it be possible to tell me which IP address is responding from that location?](#i-am-concerned-with-seeing-one-of-our-public-host-addresses-being-identified-on-the-geo-location-map-as-being-in-the-state-of-kansas-would-it-be-possible-to-tell-me-which-ip-address-is-responding-from-that-location)
-42.  [Can you share the raw .nessus file for the Cyber Hygiene reports?](#can-you-share-the-raw-nessus-file-for-the-cyber-hygiene-reports)
-43.  [Can you please provide us with a CVE number for the vulnerability that was detected in our latest report?](#can-you-please-provide-us-with-a-cve-number-for-the-vulnerability-that-was-detected-in-our-latest-report)
-44.  [Why is the vulnerability severity in our Cyber Hygiene report different from the severity listed on the Nessus plugin website?](#why-is-the-vulnerability-severity-in-our-cyber-hygiene-report-different-from-the-severity-listed-on-the-nessus-plugin-website)
-45.  [I see vulnerability scanning is now coming from AWS, not your 64 network as previously specified, why?](#i-see-vulnerability-scanning-is-now-coming-from-aws-not-your-64-network-as-previously-specified-why)
-46.  [How should I handle your scanning traffic? Should I whitelist your source IPs especially since you are scanning from AWS?](#how-should-i-handle-your-scanning-traffic-should-i-whitelist-your-source-ips-especially-since-you-are-scanning-from-aws)
-47.  [Details about Third Party Authorization.](#details-about-third-party-authorization)
-48.  [Can you rescan us?](#can-you-rescan-us)
-49.  [Does *domain* need an SPF/DMARC record?](#does-domain-need-an-spfdmarc-record)
-50.  [Why aren't you scanning for DKIM?](#why-arent-you-scanning-for-dkim)
-51.  [More Trustworthy Email Information:](#more-trustworthy-email-information)
-52.  [Why aren't all subdomain details provided?](#why-arent-all-subdomain-details-provided)
-53.  [What are email authentication technologies, and what do they do?](#what-are-email-authentication-technologies-and-what-do-they-do)
-54.  [What does the Trustworthy Email report tell me?](#what-does-the-trustworthy-email-report-tell-me)
-55.  [What should my organization do?](#what-should-my-organization-do)
-56.  [How do I implement email authentication?](#how-do-i-implement-email-authentication)
-57.  [What should I do with domains that don't send mail?](#what-should-i-do-with-domains-that-dont-send-mail)
-58.  [Can email authentication hinder my organization's ability to deliver email?](#can-email-authentication-hinder-my-organizations-ability-to-deliver-email)
-59.  [What is the logic behind determining BOD 18-01 Email Security Compliance?](#what-is-the-logic-behind-determining-bod-18-01-email-security-compliance)
+36.  [What do you define as a "host"?](#what-do-you-define-as-a-host)
+37.  [Why is my report blank?](#why-is-my-report-blank)
+38.  [I would like this domain removed from my HTTPS Report.](#i-would-like-this-domain-removed-from-my-https-report)
+39.  [Why are there some hosts not showing up on the report?](#why-are-there-some-hosts-not-showing-up-on-the-report)
+40.  [I am concerned with seeing one of our public host addresses being identified on the geo-location map as being in the state of Kansas. Would it be possible to tell me which IP address is responding from that location?](#i-am-concerned-with-seeing-one-of-our-public-host-addresses-being-identified-on-the-geo-location-map-as-being-in-the-state-of-kansas-would-it-be-possible-to-tell-me-which-ip-address-is-responding-from-that-location)
+41.  [Can you share the raw .nessus file for the Cyber Hygiene reports?](#can-you-share-the-raw-nessus-file-for-the-cyber-hygiene-reports)
+42.  [Can you please provide us with a CVE number for the vulnerability that was detected in our latest report?](#can-you-please-provide-us-with-a-cve-number-for-the-vulnerability-that-was-detected-in-our-latest-report)
+43.  [Why is the vulnerability severity in our Cyber Hygiene report different from the severity listed on the Nessus plugin website?](#why-is-the-vulnerability-severity-in-our-cyber-hygiene-report-different-from-the-severity-listed-on-the-nessus-plugin-website)
+44.  [I see vulnerability scanning is now coming from AWS, not your 64 network as previously specified, why?](#i-see-vulnerability-scanning-is-now-coming-from-aws-not-your-64-network-as-previously-specified-why)
+45.  [How should I handle your scanning traffic? Should I whitelist your source IPs especially since you are scanning from AWS?](#how-should-i-handle-your-scanning-traffic-should-i-whitelist-your-source-ips-especially-since-you-are-scanning-from-aws)
+46.  [Details about Third Party Authorization.](#details-about-third-party-authorization)
+47.  [Can you rescan us?](#can-you-rescan-us)
+48.  [Does *domain* need an SPF/DMARC record?](#does-domain-need-an-spfdmarc-record)
+49.  [Why aren't you scanning for DKIM?](#why-arent-you-scanning-for-dkim)
+50.  [More Trustworthy Email Information:](#more-trustworthy-email-information)
+51.  [Why aren't all subdomain details provided?](#why-arent-all-subdomain-details-provided)
+52.  [What are email authentication technologies, and what do they do?](#what-are-email-authentication-technologies-and-what-do-they-do)
+53.  [What does the Trustworthy Email report tell me?](#what-does-the-trustworthy-email-report-tell-me)
+54.  [What should my organization do?](#what-should-my-organization-do)
+55.  [How do I implement email authentication?](#how-do-i-implement-email-authentication)
+56.  [What should I do with domains that don't send mail?](#what-should-i-do-with-domains-that-dont-send-mail)
+57.  [Can email authentication hinder my organization's ability to deliver email?](#can-email-authentication-hinder-my-organizations-ability-to-deliver-email)
+58.  [What is the logic behind determining BOD 18-01 Email Security Compliance?](#what-is-the-logic-behind-determining-bod-18-01-email-security-compliance)
 
 #### What is the basic process of the Cyber Hygiene Vulnerability Scanning program?
 NCATS scans for and reports on vulnerabilities that are detectable from outside your organization's network. One major purpose of Cyber Hygiene is proactive identification of vulnerabilities directly accessible for exploitation by an external party from the Internet. The idea is that we find and report on things from a perspective similar to that of an attacker. This perspective enables us to better gauge risk and exposure and inform urgency of response to threats and vulnerabilities.
@@ -93,7 +92,11 @@ The Department of Homeland Security (DHS) and more specifically the National Cyb
 At the end of the year DHS creates an anonymized report that shows high level statistics and findings for purposes of trending analysis only.
 
 #### On page two in the Cyber Hygiene agreement you mention 'You accept that your Agency bears the risk to its systems and networks described above.' Can you help me understand your definition of this line? If the scan is non-intrusive, then what risks would?
-Cyber Hygiene is intended to be non-intrusive, but network scanning always carries some level of risk. It's possible our scans could cause degradation to your network availability, making otherwise performant applications appear latent. It's possible, though highly unlikely, that we could bring down a scanning target. It's possible that a scan could trigger and exploit a vulnerability, instead of simply detecting its presence. We've carefully tuned our scans, and can tune further per stakeholder, so that those things don't happen. Ultimately, modification of the agreement the subject to the approval of our general counsel team.
+Cyber Hygiene is intended to be non-intrusive, but network scanning always carries some level of risk. It's possible our scans could cause degradation to your network availability, making otherwise performant applications appear latent. It's possible, though highly unlikely, that we could bring down a scanning target. It's possible that a scan could trigger and exploit a vulnerability, instead of simply detecting its presence. Since our scanning is persistent, there is a possibility that it may impact daily operations. We've carefully tuned our scans, and can tune further per stakeholder, so that those things don't happen. You have the option to create scan windows and adjust IP address scanning concurrency. 
+
+#### Can the testing be scheduled for a particular time-period?
+You can provide us a date and time when you would like to have the initial scan started no earlier than. After the initial scan, the default configuration is for persistent scanning that is allowed to occur anytime (noting that in the worst case of critical vulnerabilities on every active host, you will at maximum see see two scan sessions per day per host). The persistent scanner is optimized to not weigh down the network or cause service impacts.The technical team can, however, work with you to monitor the activity and if your team needs to adjust the time or scan frequency (or modify the IP scanning concurrency) we can work with you to make those changes. Customers who elect for scan windows normally like us to scan outside of business hours in their time zone (7 PM-6 AM, 7 days a week). If you wish to modify scanning concurrency, most customers elect to cut the rate in half and see how performance changes. 
+
 
 #### Are there any baseline statistics available that show of the average number of vulnerabilities per organization / host and the average days to remediate?  
 Due to the many variables in the size and structure of the organizations we scan, we do not yet provide performance or detection averages. We are working towards that future, but with no expected deliverty date yet.
@@ -154,14 +157,14 @@ In the 'M-15-01 Semi-annual Data Request' email, we stated 'This request encompa
 #### M-15-01.
 
 M-15-01 also says agencies shall 'provide DHS, on a semiannual basis, with a complete list of all internet accessible addresses and systems including static IP addresses for external websites, servers and other access points and domain name service names for dynamically provisioned systems' and shall 'Provide DHS with names of vendors who manage, host, or provide security for internet accessible systems, including external websites and servers, and ensure that those vendors have provided any necessary authorizations for DHS'scanning of agency systems'. We don't have a particular need here for the names of the vendors, but it seems clear that there wouldn't be a requirement to ensure the vendor has 'authorized DHS scanning of agency systems' unless we were actually going to scan them. Taken together, we understand these two clauses to allow us to scan your external service providers-- though of course we anticipate that each agency will seek to arbitrate a clear authorization with their service providers.
-'
+
 In summary, we assert that we do have the authority to scan agency information systems, whether they are hosted by an agency directly or by a service provider. To date, we have not knowingly scanned a third-party system without an agency first ensuring the service provider is apprised of the scans, however. If you believe we are scanning your third-parties without authorization, we request that you immediately notify us which IPs we need to remove.
 
 #### We have noticed scanning activity coming from 64.69.57.0/24 and or AWS. Can you confirm this traffic?
-This is DHS authorized testing via the NCATS Cyber Hygiene program. The scanning takes place per OMB M-15-01 and the Binding Operational Directive (BOD)'15-01 issued by the DHS Secretary and OMB. The authority for the BOD is given under the FISMA Modernization Act of 2014.
-'
-All of NCATS scanning traffic originates from the 64.69.57.0/24 network and IPs listed athttps://rules.ncats.cyber.dhs.gov.
-'
+This is DHS authorized testing via the NCATS Cyber Hygiene program. The scanning takes place per OMB M-15-01 and the Binding Operational Directive (BOD) 15-01 issued by the DHS Secretary and OMB. The authority for the BOD is given under the FISMA Modernization Act of 2014.
+
+All of NCATS scanning traffic originates from the 64.69.57.0/24 network and IPs listed at https://rules.ncats.cyber.dhs.gov.
+
 Feel free to reach out directly to NCATS@hq.dhs.gov and copy'_________ (Tech'POC'on file)'with any questions/concerns regarding our vulnerability scanning.
 
 #### Can you scan domains/AWS (Dynamic IP addresses/Cloud-hosted resources)?
@@ -173,24 +176,19 @@ The NCATS team is currently developing ways to scan IPv6 space. We will inform o
 #### I am seeing fluctuations in host counts, why is that?
 Host count can fluctuate for the following reasons:
 1) Your IP space is significantly large enough that we are unable to complete a full rescan of all of your hosts in between weekly reports.
-2) After the initial scan of your entire IP space, we found some hosts to be ""non-responsive"" (e.g., our scans are blocked by host or network filters, the device is down for maintenance, packets are dropped or lost en route, etc.). All ""non-responsive"" hosts are marked for re-scan in 90 days. Upon rescan, host count may jump as we detect new live hosts that were previously dark.'
+2) After the initial scan of your entire IP space, we found some hosts to be 'non-responsive' (e.g., our scans are blocked by host or network filters, the device is down for maintenance, packets are dropped or lost en route, etc.). All 'non-responsive' hosts are marked for re-scan in 90 days. Upon rescan, host count may jump as we detect new live hosts that were previously dark.
 
 The intent of CyHy is to find vulnerabilities, not count hosts, and our metrics should not be relied upon as a verified host count of your organization. The weekly host count should be taken as an estimate. If, however, there are no or extremely low host counts reported when there are known active hosts, it is possible that the CyHy scans are being blocked.
 
 #### OS MISIDENTIFICATION and NMAP
 OS identification is a function of Nmap, one of the tools we use in scanning. An attempt is made to detect the operating system by evaluating how a system responds compared to known responders.
-'
+
 If Nmap is wrong and you'd be willing to help out the security ecosystem, we'd encourage you to check out https://nmap.org/book/osdetect-unidentified.html#osdetect-wrong, where instructions are given how to collect an OS fingerprint and then submit them to the tool's development team.
-'
 
 (We'd love to hear back from you if you have success doing this! Your contributions to the tool will get incorporated into Nmap, and we generally stay current with the latest versions.)
 
 #### NCATS/CyHy Authority To Operate
-DHS's National Cybersecurity and Communications Integration Center (NCCIC) is authorized by statute to share cybersecurity information and provide cybersecurity technical assistance, risk management support, and incident response capabilities to both federal and non-federal entities (including private companies) upon the entity's request. 'Our Cyber Hygiene scanning services relate to these authorities. 'Our work with non-Federal entities in this arena is purely voluntary, the NCCIC is not a regulator, and the National Cybersecurity Protection Act of 2014 states that no private entity is obligated by these authorities to request or receive technical assistance or implement any DHS recommendations.'6 U.S. Code ' 148
-
-
-#### Are there any risks associated with network scanning?
-Cyber Hygiene is intended to be non-intrusive, but network scanning always carries some level of risk. It's possible our scans could cause degradation to your network availability, making otherwise performant applications appear latent. It's possible (though unlikely) that we could bring down a scanning target. It's possible that a scan could trigger and exploit a vulnerability, instead of simply detecting its presence.'Since our scanning is persistent, there is a possibility that it may impact daily operations. We've carefully tuned our scans, but we can tune further per stakeholder so that those things don't happen. You have the option to create scan windows and adjust IP address scanning concurrency. Customers who elect for scan windows normally like us to scan outside of business hours in their time zone (7 PM ' 6 AM, 7 days a week).'If you wish to modify scanning concurrency, most customers elect to cut the rate in half and see how performance changes.
+DHS's National Cybersecurity and Communications Integration Center (NCCIC) is authorized by statute to share cybersecurity information and provide cybersecurity technical assistance, risk management support, and incident response capabilities to both federal and non-federal entities (including private companies) upon the entity's request. Our Cyber Hygiene scanning services relate to these authorities. Our work with non-Federal entities in this arena is purely voluntary, the NCCIC is not a regulator, and the National Cybersecurity Protection Act of 2014 states that no private entity is obligated by these authorities to request or receive technical assistance or implement any DHS recommendations. 6 U.S. Code 148
 
 #### How long does the scanning usually take?
 The total scan time depends on:
@@ -219,9 +217,6 @@ That is normal web-scanning activity. Our primary scanning tool currently has 94
 
 #### What IP addresses do we send you?
 Section II (pg. 8) of the M-15-01 says agencies 'shall'Provide DHS, on a semiannual basis, with a complete list of all internet accessible addresses and systems, including static IP addresses for external websites, servers and other access points and domain name service names for dynamically provisioned systems'. Basically, give us all public IP ranges and domain names (including subdomains) for your agency. The entire block of addresses will be scanned initially; any IPs that appear dark to us (either because there is no active service at the address, or we're blocked, etc.) will be rescanned after 90 days. Those addresses that have = 1 service running are scanned at least once per week, with increased frequency for each grade (Low, Medium, High, Critical) vulnerability.
-
-#### Can the testing be scheduled for a particular time-period?
-You can provide us a date and time when you would like to have the initial scan started no earlier than. After the initial scan, the default configuration is for persistent scanning that is allowed to occur anytime (noting that in the worst case of critical vulnerabilities on every active host, you will at maximum see see two scan sessions per day per host). The persistent scanner is optimized to not weigh down the network or cause service impacts. The technical team can, however, work with you to monitor the activity and if your team needs to adjust the time or scan frequency (or modify the IP scanning concurrency) we can work with you to make those changes.
 
 #### What do you define as a "host"?
 The cyber hygiene reports may display a smaller number of "Hosts" than previously in the "Cyber Hygiene Report Card High Level Findings" at the top of page 4. In some cases, the number of hosts could be significantly less than in the past. This is due to a change in what we are considering to be a host. Previously, any device that responded to our scan with a TCP acknowledgement, reset or ICMP echo was considered a host, even devices where no open ports were detected. In the interest of more accurate reporting, we are now considering a host to be a device with at least one open port detected. For the purposes of Cyber Hygiene, we believe this updated definition of a host will be of greater value than the previous definition because it only includes devices that respond and are accessible in a more meaningful way.
