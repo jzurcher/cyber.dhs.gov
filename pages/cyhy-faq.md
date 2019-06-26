@@ -1,75 +1,76 @@
+
 # Cyber Hygiene F.A.Q.
 
 This quick guide provides answers to the most frequest questions sent by Cyber Hygiene customers looking for more infomation and details related to this scanning service.   
 
-* [What is the basic process of the Cyber Hygiene Vulnerability Scanning program?](#what-is-the-basic-process-of-the-cyber-hygiene-vulnerability-scanning-program)
-* [We would like to add recipients to the reports distro list, how can we add them?](#we-would-like-to-add-recipients-to-the-reports-distro-list-how-can-we-add-them)
-* [When does the Cyber Hygiene Vulnerability scan start?](#when-does-the-cyber-hygiene-vulnerability-scan-start)
-* [How does DHS protect the confidentiality of the report?](#how-does-dhs-protect-the-confidentiality-of-the-report)
-* [What information does DHS disclose about the participants of the program?  Would our agency be publicly identified as a participant?](#what-information-does-dhs-disclose-about-the-participants-of-the-program--would-our-agency-be-publicly-identified-as-a-participant)
-* [Who/What entities have access to the findings of the reports?](#whowhat-entities-have-access-to-the-findings-of-the-reports)
-* [How does DHS anonymize the data collected for use in supplemental reports?](#how-does-dhs-anonymize-the-data-collected-for-use-in-supplemental-reports)
-* [On page two in the Cyber Hygiene agreement you mention 'You accept that your Agency bears the risk to its systems and networks described above.' Can you help me understand your definition of this line? If the scan is non-intrusive, then what risks would?](#on-page-two-in-the-cyber-hygiene-agreement-you-mention-you-accept-that-your-agency-bears-the-risk-to-its-systems-and-networks-described-above-can-you-help-me-understand-your-definition-of-this-line-if-the-scan-is-non-intrusive-then-what-risks-would)
-* [Are there any baseline statistics available that show of the average number of vulnerabilities per organization / host and the average days to remediate?](#are-there-any-baseline-statistics-available-that-show-of-the-average-number-of-vulnerabilities-per-organization--host-and-the-average-days-to-remediate)
-* [Can we change the language on the NCATS legal agreements? ?](#can-we-change-the-language-on-the-ncats-legal-agreements)
-* [Can NCATS sign a Non-Disclosure Agreement (NDA)?](#can-ncats-sign-a-non-disclosure-agreement-nda)
-* [Why are there more Mitigated Vulnerabilities than Detected Vulnerabilities in a single year?](#why-are-there-more-mitigated-vulnerabilities-than-detected-vulnerabilities-in-a-single-year)
-* [What does CIDR notation mean?](#what-does-cidr-notation-mean)
-* [Are my reports subject to FOIA requests?](#are-my-reports-subject-to-foia-requests)
-* [Can I have a copy of our  counter signed ROE?](#can-i-have-a-copy-of-our--counter-signed-roe)
-* [I would like to understand the SecureDNS Validation report error correction process.](#i-would-like-to-understand-the-securedns-validation-report-error-correction-process)
-* [DNSSEC address conflict canned language.](#dnssec-address-conflict-canned-language)
-* [Can we report a potential false positive?](#can-we-report-a-potential-false-positive)
-* [Will you add our private certificate authority in your root store?/ Trust Issues.](#will-you-add-our-private-certificate-authority-in-your-root-store-trust-issues)
-* [Why would a vulnerability appear in one scan and not another?](#why-would-a-vulnerability-appear-in-one-scan-and-not-another)
-* [Certificate Authorities (CA)](#certificate-authorities-ca)
-* [M-15-01 Semi-annual Data Request.](#m-15-01-semi-annual-data-request)
-* [M-15-01.](#m-15-01)
-* [We have noticed scanning activity coming from 64.69.57.0/24 and or AWS. Can you confirm this traffic?](#we-have-noticed-scanning-activity-coming-from-646957024-and-or-aws-can-you-confirm-this-traffic)
-* [Can you scan domains/AWS (Dynamic IP addresses/Cloud-hosted resources)?](#can-you-scan-domainsaws-dynamic-ip-addressescloud-hosted-resources)
-* [Do you know when you will be able to scan IPv6 space?](#do-you-know-when-you-will-be-able-to-scan-ipv6-space)
-* [I am seeing fluctuations in host counts, why is that?](#i-am-seeing-fluctuations-in-host-counts-why-is-that)
-* [OS MISIDENTIFICATION and NMAP.](#os-misidentification-and-nmap)
-* [NCATS/CyHy Authority To Operate.](#ncatscyhy-authority-to-operate)
-* [Are there any risks associated with network scanning?](#are-there-any-risks-associated-with-network-scanning)
-* [How long does the scanning usually take? ](#how-long-does-the-scanning-usually-take)
-* [Why can't you scan domains?](#why-cant-you-scan-domains)
-* [I am receiving reports about service impacts due to CyHy scanning against one of our Agency VPN systems?](#i-am-receiving-reports-about-service-impacts-due-to-cyhy-scanning-against-one-of-our-agency-vpn-systems)
-* [Why are we being hit with so much traffic?](#why-are-we-being-hit-with-so-much-traffic)
-* [What IP addresses do we send you?](#what-ip-addresses-do-we-send-you)
-* [Can the testing be scheduled for a particular time-period?](#can-the-testing-be-scheduled-for-a-particular-time-period)
-* [What do you define as a "host"?](#what-do-you-define-as-a-host)
-* [Why is my report blank?](#why-is-my-report-blank)
-* [I would like this domain removed from my HTTPS Report.](#i-would-like-this-domain-removed-from-my-https-report)
-* [Why are there some hosts not showing up on the report?](#why-are-there-some-hosts-not-showing-up-on-the-report)
-* [I am concerned with seeing one of our public host addresses being identified on the geo-location map as being in the state of Kansas. Would it be possible to tell me which IP address is responding from that location?](#i-am-concerned-with-seeing-one-of-our-public-host-addresses-being-identified-on-the-geo-location-map-as-being-in-the-state-of-kansas-would-it-be-possible-to-tell-me-which-ip-address-is-responding-from-that-location)
-* [Can you share the raw .nessus file for the Cyber Hygiene reports?](#can-you-share-the-raw-nessus-file-for-the-cyber-hygiene-reports)
-* [Can you please provide us with a CVE number for the vulnerability that was detected in our latest report?](#can-you-please-provide-us-with-a-cve-number-for-the-vulnerability-that-was-detected-in-our-latest-report)
-* [Why is the vulnerability severity in our Cyber Hygiene report different from the severity listed on the Nessus plugin website?](#why-is-the-vulnerability-severity-in-our-cyber-hygiene-report-different-from-the-severity-listed-on-the-nessus-plugin-website)
-* [I see vulnerability scanning is now coming from AWS, not your 64 network as previously specified, why?](#i-see-vulnerability-scanning-is-now-coming-from-aws-not-your-64-network-as-previously-specified-why)
-* [How should I handle your scanning traffic? Should I whitelist your source IPs especially since you are scanning from AWS?](#how-should-i-handle-your-scanning-traffic-should-i-whitelist-your-source-ips-especially-since-you-are-scanning-from-aws)
-* [Details about Third Party Authorization.](#details-about-third-party-authorization)
-* [Can you rescan us?](#can-you-rescan-us)
-* [Does *domain* need an SPF/DMARC record?](#does-domain-need-an-spfdmarc-record)
-* [Why aren't you scanning for DKIM?](#why-arent-you-scanning-for-dkim)
-* [More Trustworthy Email Information:](#more-trustworthy-email-information)
-* [Why aren't all subdomain details provided?](#why-arent-all-subdomain-details-provided)
-* [What are email authentication technologies, and what do they do?](#what-are-email-authentication-technologies-and-what-do-they-do)
-* [What does the Trustworthy Email report tell me?](#what-does-the-trustworthy-email-report-tell-me)
-* [What should my organization do?](#what-should-my-organization-do)
-* [How do I implement email authentication?](#how-do-i-implement-email-authentication)
-* [What should I do with domains that don't send mail?](#what-should-i-do-with-domains-that-dont-send-mail)
-* [Can email authentication hinder my organization's ability to deliver email?](#can-email-authentication-hinder-my-organizations-ability-to-deliver-email)
-* [What is the logic behind determining BOD 18-01 Email Security Compliance?](#what-is-the-logic-behind-determining-bod-18-01-email-security-compliance)
+1. [What is the basic process of the Cyber Hygiene Vulnerability Scanning program?](#what-is-the-basic-process-of-the-cyber-hygiene-vulnerability-scanning-program)
+2. [We would like to add recipients to the reports distro list, how can we add them?](#we-would-like-to-add-recipients-to-the-reports-distro-list-how-can-we-add-them)
+3. [When does the Cyber Hygiene Vulnerability scan start?](#when-does-the-cyber-hygiene-vulnerability-scan-start)
+4. [How does DHS protect the confidentiality of the report?](#how-does-dhs-protect-the-confidentiality-of-the-report)
+5. [What information does DHS disclose about the participants of the program?  Would our agency be publicly identified as a participant?](#what-information-does-dhs-disclose-about-the-participants-of-the-program--would-our-agency-be-publicly-identified-as-a-participant)
+6. [Who/What entities have access to the findings of the reports?](#whowhat-entities-have-access-to-the-findings-of-the-reports)
+7. [How does DHS anonymize the data collected for use in supplemental reports?](#how-does-dhs-anonymize-the-data-collected-for-use-in-supplemental-reports)
+8. [On page two in the Cyber Hygiene agreement you mention 'You accept that your Agency bears the risk to its systems and networks described above.' Can you help me understand your definition of this line? If the scan is non-intrusive, then what risks would?](#on-page-two-in-the-cyber-hygiene-agreement-you-mention-you-accept-that-your-agency-bears-the-risk-to-its-systems-and-networks-described-above-can-you-help-me-understand-your-definition-of-this-line-if-the-scan-is-non-intrusive-then-what-risks-would)
+9. [Are there any baseline statistics available that show of the average number of vulnerabilities per organization / host and the average days to remediate?](#are-there-any-baseline-statistics-available-that-show-of-the-average-number-of-vulnerabilities-per-organization--host-and-the-average-days-to-remediate)
+10. [Can we change the language on the NCATS legal agreements? ?](#can-we-change-the-language-on-the-ncats-legal-agreements)
+11. [Can NCATS sign a Non-Disclosure Agreement (NDA)?](#can-ncats-sign-a-non-disclosure-agreement-nda)
+12. [Why are there more Mitigated Vulnerabilities than Detected Vulnerabilities in a single year?](#why-are-there-more-mitigated-vulnerabilities-than-detected-vulnerabilities-in-a-single-year)
+13. [What does CIDR notation mean?](#what-does-cidr-notation-mean)
+14. [Are my reports subject to FOIA requests?](#are-my-reports-subject-to-foia-requests)
+15. [Can I have a copy of our  counter signed ROE?](#can-i-have-a-copy-of-our--counter-signed-roe)
+16. [I would like to understand the SecureDNS Validation report error correction process.](#i-would-like-to-understand-the-securedns-validation-report-error-correction-process)
+17. [DNSSEC address conflict canned language.](#dnssec-address-conflict-canned-language)
+18. [Can we report a potential false positive?](#can-we-report-a-potential-false-positive)
+19. [Will you add our private certificate authority in your root store?/ Trust Issues.](#will-you-add-our-private-certificate-authority-in-your-root-store-trust-issues)
+20. [Why would a vulnerability appear in one scan and not another?](#why-would-a-vulnerability-appear-in-one-scan-and-not-another)
+21. [Certificate Authorities (CA)](#certificate-authorities-ca)
+22. [M-15-01 Semi-annual Data Request.](#m-15-01-semi-annual-data-request)
+23. [M-15-01.](#m-15-01)
+24. [We have noticed scanning activity coming from 64.69.57.0/24 and or AWS. Can you confirm this traffic?](#we-have-noticed-scanning-activity-coming-from-646957024-and-or-aws-can-you-confirm-this-traffic)
+25. [Can you scan domains/AWS (Dynamic IP addresses/Cloud-hosted resources)?](#can-you-scan-domainsaws-dynamic-ip-addressescloud-hosted-resources)
+26. [Do you know when you will be able to scan IPv6 space?](#do-you-know-when-you-will-be-able-to-scan-ipv6-space)
+27. [I am seeing fluctuations in host counts, why is that?](#i-am-seeing-fluctuations-in-host-counts-why-is-that)
+28. [OS MISIDENTIFICATION and NMAP.](#os-misidentification-and-nmap)
+29. [NCATS/CyHy Authority To Operate.](#ncatscyhy-authority-to-operate)
+30. [Are there any risks associated with network scanning?](#are-there-any-risks-associated-with-network-scanning)
+31. [How long does the scanning usually take? ](#how-long-does-the-scanning-usually-take)
+32. [Why can't you scan domains?](#why-cant-you-scan-domains)
+33.  [I am receiving reports about service impacts due to CyHy scanning against one of our Agency VPN systems?](#i-am-receiving-reports-about-service-impacts-due-to-cyhy-scanning-against-one-of-our-agency-vpn-systems)
+34.  [Why are we being hit with so much traffic?](#why-are-we-being-hit-with-so-much-traffic)
+35.  [What IP addresses do we send you?](#what-ip-addresses-do-we-send-you)
+36.  [Can the testing be scheduled for a particular time-period?](#can-the-testing-be-scheduled-for-a-particular-time-period)
+37.  [What do you define as a "host"?](#what-do-you-define-as-a-host)
+38.  [Why is my report blank?](#why-is-my-report-blank)
+39.  [I would like this domain removed from my HTTPS Report.](#i-would-like-this-domain-removed-from-my-https-report)
+40.  [Why are there some hosts not showing up on the report?](#why-are-there-some-hosts-not-showing-up-on-the-report)
+41.  [I am concerned with seeing one of our public host addresses being identified on the geo-location map as being in the state of Kansas. Would it be possible to tell me which IP address is responding from that location?](#i-am-concerned-with-seeing-one-of-our-public-host-addresses-being-identified-on-the-geo-location-map-as-being-in-the-state-of-kansas-would-it-be-possible-to-tell-me-which-ip-address-is-responding-from-that-location)
+42.  [Can you share the raw .nessus file for the Cyber Hygiene reports?](#can-you-share-the-raw-nessus-file-for-the-cyber-hygiene-reports)
+43.  [Can you please provide us with a CVE number for the vulnerability that was detected in our latest report?](#can-you-please-provide-us-with-a-cve-number-for-the-vulnerability-that-was-detected-in-our-latest-report)
+44.  [Why is the vulnerability severity in our Cyber Hygiene report different from the severity listed on the Nessus plugin website?](#why-is-the-vulnerability-severity-in-our-cyber-hygiene-report-different-from-the-severity-listed-on-the-nessus-plugin-website)
+45.  [I see vulnerability scanning is now coming from AWS, not your 64 network as previously specified, why?](#i-see-vulnerability-scanning-is-now-coming-from-aws-not-your-64-network-as-previously-specified-why)
+46.  [How should I handle your scanning traffic? Should I whitelist your source IPs especially since you are scanning from AWS?](#how-should-i-handle-your-scanning-traffic-should-i-whitelist-your-source-ips-especially-since-you-are-scanning-from-aws)
+47.  [Details about Third Party Authorization.](#details-about-third-party-authorization)
+48.  [Can you rescan us?](#can-you-rescan-us)
+49.  [Does *domain* need an SPF/DMARC record?](#does-domain-need-an-spfdmarc-record)
+50.  [Why aren't you scanning for DKIM?](#why-arent-you-scanning-for-dkim)
+51.  [More Trustworthy Email Information:](#more-trustworthy-email-information)
+52.  [Why aren't all subdomain details provided?](#why-arent-all-subdomain-details-provided)
+53.  [What are email authentication technologies, and what do they do?](#what-are-email-authentication-technologies-and-what-do-they-do)
+54.  [What does the Trustworthy Email report tell me?](#what-does-the-trustworthy-email-report-tell-me)
+55.  [What should my organization do?](#what-should-my-organization-do)
+56.  [How do I implement email authentication?](#how-do-i-implement-email-authentication)
+57.  [What should I do with domains that don't send mail?](#what-should-i-do-with-domains-that-dont-send-mail)
+58.  [Can email authentication hinder my organization's ability to deliver email?](#can-email-authentication-hinder-my-organizations-ability-to-deliver-email)
+59.  [What is the logic behind determining BOD 18-01 Email Security Compliance?](#what-is-the-logic-behind-determining-bod-18-01-email-security-compliance)
 
 #### What is the basic process of the Cyber Hygiene Vulnerability Scanning program?
-NCATS scans for and reports on vulnerabilities that are detectable from outside your agency's network. 'One major purpose of Cyber Hygiene is proactive identification of vulnerabilities directly accessible for exploitation by an external party from the Internet. 'The idea is that we find and report on things from a perspective similar to that of an attacker. 'This perspective enables us to better gauge risk and exposure and inform urgency of response to threats and vulnerabilities.
+NCATS scans for and reports on vulnerabilities that are detectable from outside your organization's network. One major purpose of Cyber Hygiene is proactive identification of vulnerabilities directly accessible for exploitation by an external party from the Internet. The idea is that we find and report on things from a perspective similar to that of an attacker. This perspective enables us to better gauge risk and exposure and inform urgency of response to threats and vulnerabilities.
 
- ' ' During Cyber Hygiene scanning we use two tools: Nmap and Nessus Tenable. 'Nmap helps us to detect IPs that have at least one open port/listening service, which we define as hosts. 'We then vulnerability scan the IPs we've identified as 'hosts' persistently at a frequency determined by the severity level of the vulnerabilities detected on the host (please reference the Methodology section for more details). 'IPs that are not found to be hosts are labeled as dark space and will be rescanned 90 days later to check for changes.
+During Cyber Hygiene scanning we use two tools: Nmap and Nessus Tenable. Nmap helps us to detect IPs that have at least one open port/listening service, which we define as hosts. We then vulnerability scan the IPs we've identified as 'hosts' persistently at a frequency determined by the severity level of the vulnerabilities detected on the host (please reference the Methodology section for more details). IPs that are not found to be hosts are labeled as dark space and will be rescanned 90 days later to check for changes.
 
- ' ' The vulnerability findings we detect on your hosts as well as other pertinent information such as the scope we are currently scanning for your organization are included in a PDF report that we send out weekly, typically on Mondays. 'Within the PDF, you will find summary information and charts as well as more detailed, filterable spreadsheet attachments. 'The attachments can be viewed either by clicking on the paper clip icon next to the relevant file listed under Attachment G or by clicking the arrow along the left hand side of your report to expand the navigation menu, clicking the paper clip icon to see the list of all attachments, and then double clicking to open the file you'd like to view.
+The vulnerability findings we detect on your hosts as well as other pertinent information such as the scope we are currently scanning for your organization are included in a PDF report that we send out weekly, typically on Mondays. Within the PDF, you will find summary information and charts as well as more detailed, filterable spreadsheet attachments. The attachments can be viewed either by clicking on the paper clip icon next to the relevant file listed under Attachment G or by clicking the arrow along the left hand side of your report to expand the navigation menu, clicking the paper clip icon to see the list of all attachments, and then double clicking to open the file you'd like to view.
 
- ' ' Any change requests to modify scope, technical POCs, where we distribute your reports to, or false positive assertions should be sent to NCATS@hq.dhs.gov. 'That is also the place to send any questions you may have regarding the report, its findings, or anything else we can help with.
+Any change requests to modify scope, technical POCs, where we distribute your reports to, or false positive assertions should be sent to NCATS@hq.dhs.gov. That is also the place to send any questions you may have regarding the report, its findings, or anything else we can help with.
 
 #### We would like to add recipients to the reports distro list, how can we add them?
 If you intend to have your report sent to more than one person or group inside your organization, we request that you set up a distribution list within your organization.  This allows you, as the customer, to manage the list and add/remove'people as necessary.  If you'll be the only recipient, we'll just mail reports directly to you.
@@ -80,39 +81,39 @@ Once we have all of the necessary information, we can add your organization as a
 #### How does DHS protect the confidentiality of the report?
 The data of the report is encrypted from the time it is delivered from the scanner to the report. The data resides in the NCATS lab, which is a special enclave that falls under the NCATS data storage and handling guidelines.
 
-#### What information does DHS disclose about the participants of the program?  Would our agency be publicly identified as a participant?
-DHS does not disclose the participants outside of the Department. For leadership situational awareness the scanning and testing activities are always reported across the NCCIC. Your agency would NOT be publicly identified in a report.
-'
-DHS's National Cybersecurity and Communications Integration Center (NCCIC) is authorized by statute to share cybersecurity information and provide cybersecurity technical assistance, risk management support, and incident response capabilities to both federal and non-federal entities (including private companies) upon the entity's request. 'Our Cyber Hygiene scanning services relate to these authorities. 'Our work with non-Federal entities in this arena is purely voluntary, the NCCIC is not a regulator, and the National Cybersecurity Protection Act of 2014 states that no private entity is obligated by these authorities to request or receive technical assistance or implement any DHS recommendations. '6 U.S.C. ' 148 note.
+#### What information does DHS disclose about the participants of the program?  Would our organization be publicly identified as a participant?
+DHS does not disclose the participants outside of the Department. For leadership situational awareness the scanning and testing activities are always reported across the NCCIC. Your organization would NOT be publicly identified in a report.
+
+DHS's National Cybersecurity and Communications Integration Center (NCCIC) is authorized by statute to share cybersecurity information and provide cybersecurity technical assistance, risk management support, and incident response capabilities to both federal and non-federal entities (including private companies) upon the entity's request. Our Cyber Hygiene scanning services relate to these authorities. Our work with non-Federal entities in this arena is purely voluntary, the NCCIC is not a regulator, and the National Cybersecurity Protection Act of 2014 states that no private entity is obligated by these authorities to request or receive technical assistance or implement any DHS recommendations. '6 U.S.C.' 148 note.
 
 #### Who/What entities have access to the findings of the reports?
-The Department of Homeland Security (DHS) and more specifically the'National Cybersecurity and Communications Integration Center'(NCCIC) has access to the findings of the CyberHygieneand Risk and Vulnerability Assessment findings.
+The Department of Homeland Security (DHS) and more specifically the National Cybersecurity and Communications Integration Center (NCCIC) has access to the findings of the Cyber Hygiene and Risk and Vulnerability Assessment findings.
 
 #### How does DHS anonymize the data collected for use in supplemental reports?
 At the end of the year DHS creates an anonymized report that shows high level statistics and findings for purposes of trending analysis only.
 
 #### On page two in the Cyber Hygiene agreement you mention 'You accept that your Agency bears the risk to its systems and networks described above.' Can you help me understand your definition of this line? If the scan is non-intrusive, then what risks would?
-Cyber Hygiene is intended to be non-intrusive, but network scanning always carries some level of risk. It's possible our scans could cause degradation to your network availability, making otherwise performant applications appear latent. It's possible, though highly'unlikely, that we could bring down a scanning target. It's possible that a scan could trigger and exploit a vulnerability, instead of simply detecting its presence. We've carefully tuned our scans, and can tune further per stakeholder, so that those things don't happen. Ultimately, modification of the agreement the subject to the approval of our general counsel team.
+Cyber Hygiene is intended to be non-intrusive, but network scanning always carries some level of risk. It's possible our scans could cause degradation to your network availability, making otherwise performant applications appear latent. It's possible, though highly unlikely, that we could bring down a scanning target. It's possible that a scan could trigger and exploit a vulnerability, instead of simply detecting its presence. We've carefully tuned our scans, and can tune further per stakeholder, so that those things don't happen. Ultimately, modification of the agreement the subject to the approval of our general counsel team.
 
 #### Are there any baseline statistics available that show of the average number of vulnerabilities per organization / host and the average days to remediate?  
 Due to the many variables in the size and structure of the organizations we scan, we do not yet provide performance or detection averages. We are working towards that future, but with no expected deliverty date yet.
 
 #### Can we change the language on the NCATS legal agreements?
-Our legal agreements were carefully written by the DHS Office of General Council (OGC)'and approved by DHS'management.'These agreements'were utilized by all of NCATS previous assessments. While change requests are not normally accepted, I would be happy to pass your request on to our OGC team.
+Our legal agreements were carefully written by the DHS Office of General Council (OGC) and approved by DHS management. These agreements were utilized by all of NCATS previous assessments. While change requests are not normally accepted, I would be happy to pass your request on to our OGC team.
 
 #### Can NCATS sign a Non-Disclosure Agreement (NDA)?
-The Department of Homeland'Security'(DHS)'Office of General Council'does not allow NCATS team members'to sign Non-Discolousure Agreements (NDAs) as'Federal employees already'have'statutory nondisclosure obligations'under the Trade Secrets Act, 18 U.S. Code''1905. Regarding the contractors'who work with DHS, all contractors are required to sign a NDA with DHS covering our work prior to starting on our contracts(DHS Form 1100-06 [08-04]).
+The Department of Homeland Security (DHS) Office of General Council does not allow NCATS team members to sign Non-Discolousure Agreements (NDAs) as Federal employees already have statutory nondisclosure obligations under the Trade Secrets Act, 18 U.S. Code 1905. Regarding the contractors who work with DHS, all contractors are required to sign a NDA with DHS covering our work prior to starting on our contracts(DHS Form 1100-06 [08-04]).
 
 #### Why are there more Mitigated Vulnerabilities than Detected Vulnerabilities in a single year?
-Detected Vulnerabilities are carried over from year-to-year, so the number of vulnerabilities'mitigated in a year can be greater than the number of vulnerabilities detected in that year.
+Detected Vulnerabilities are carried over from year-to-year, so the number of vulnerabilities mitigated in a year can be greater than the number of vulnerabilities detected in that year.
 
 #### What does CIDR notation mean?
 
-CIDR notation is a simpler way to express a range of IP addresses. For example, if you are providing a range of 10.0.0.0 - 10.0.0.255 you can provide it in CIDR notation which would be 10.0.0.0/24. The number after the slash is the bit mask for the network. It tells you how many bits are the same for each IP on the subnet.' There are free open-source tools that can help you convert IPv4 Conversion to CIDR.
+CIDR notation is a simpler way to express a range of IP addresses. For example, if you are providing a range of 10.0.0.0 - 10.0.0.255 you can provide it in CIDR notation which would be 10.0.0.0/24. The number after the slash is the bit mask for the network. It tells you how many bits are the same for each IP on the subnet. There are free open-source tools that can help you convert IPv4 Conversion to CIDR.
 
 
 #### Are my reports subject to FOIA requests?
-There are a number of FOIA exemptions that could be applicable.' In general, CS&C will not disclose any information that is exempt from disclosure under FOIA consistent with 5 U.S.C. ' 552(b), including but not limited to Exemption (b)(3) as specifically exempt from disclosure by statute, Exemption (b)(4) as trade secrets and commercial or financial information that is privileged or confidential and Exemption (b)(7)(A)-(F) as records or information compiled for law enforcement purposes. CS&C makes determinations regarding FOIA requests on a case by case basis consistent with its obligations under FOIA, DHS FOIA regulations, and its own internal guidance. Any determinations regarding specific FOIA exemptions will be made at the time that the responsive records are processed. When applicable, CS&C will provide the submitter notifications and opportunity for the Entity who submitted the information to DHS originally to object to disclosure as required by 6 C.F.R. ' 5.7 (a)-(j).?
+There are a number of FOIA exemptions that could be applicable. In general, CS&C will not disclose any information that is exempt from disclosure under FOIA consistent with 5 U.S.C.  552(b), including but not limited to Exemption (b)(3) as specifically exempt from disclosure by statute, Exemption (b)(4) as trade secrets and commercial or financial information that is privileged or confidential and Exemption (b)(7)(A)-(F) as records or information compiled for law enforcement purposes. CS&C makes determinations regarding FOIA requests on a case by case basis consistent with its obligations under FOIA, DHS FOIA regulations, and its own internal guidance. Any determinations regarding specific FOIA exemptions will be made at the time that the responsive records are processed. When applicable, CS&C will provide the submitter notifications and opportunity for the Entity who submitted the information to DHS originally to object to disclosure as required by 6 C.F.R. 5.7 (a)-(j).?
 
 #### Can I have a copy of our  counter signed ROE?
 Thank you for your email. Due to the number of ROE's NCATS receives, our branch director sits down once every two weeks to sign all ROE's that are in his queue. After they are signed, there is still some processing that must happen before they are finally filed. When the ROE completes the full process they are then provided to the entity.
@@ -124,14 +125,14 @@ Reports are only sent out when a domain is not fully compliant. We can conduct f
 It's our intent to merge the DNSSEC report into the Cyber Hygiene report by the end of the quarter. What this means operationally is that a single report will be delivered to each individual agency distro list.
 
 #### Can we report a potential false positive?
-Thank you for notifying NCATS of the potential false positive. The Cyber Hygiene (CyHy) team has the ability to mark the result as a false positive. Please go to the Attachment section of your Cyber Hygiene report and fill out the False Positive form attached. 'If you need to attach additional evidence of your analysis, please send in an email attachment (word, txt, or excel are preferred). 'The CyHy team will review the analysis upon receipt. 'You may still see the IP on the report but it will be in the False Positive findings. However, if the'continue to see the vulnerability on the following report, please email NCATS@hq.dhs.gov.
+Thank you for notifying NCATS of the potential false positive. The Cyber Hygiene (CyHy) team has the ability to mark the result as a false positive. Please go to the Attachment section of your Cyber Hygiene report and fill out the False Positive form attached. If you need to attach additional evidence of your analysis, please send in an email attachment (word, txt, or excel are preferred). The CyHy team will review the analysis upon receipt. You may still see the IP on the report but it will be in the False Positive findings. However, if you continue to see the vulnerability on the following report, please email NCATS@hq.dhs.gov.
 
 #### Will you add our private certificate authority in your root store?/ Trust Issues.
-NCATS/Cyber Hygiene'does not accept private certificate authorities (CA) for submission into our root store. This is a deliberate decision in order to support the HTTPS-only mandate (M-15-13). Our scanner uses the Mozilla root store, which contains unambiguously-public certificate authorities
+NCATS/Cyber Hygiene does not accept private certificate authorities (CA) for submission into our root store. This is a deliberate decision in order to support the HTTPS-only mandate (M-15-13). Our scanner uses the Mozilla root store, which contains unambiguously-public certificate authorities.
 
-M-15-13 applies to all federal sites and services that are publicly reachable over HTTP/HTTPS,not simply those intended for the public's use. Using a federally-issued certificate is a decision your agency could choose to make, butyou should understand why this may or may not be a good idea. We previously manually trusted the Federal Common Policy CA, but removed it from our scanner's root store in September 2016 to support correct implementation of the policy.
+M-15-13 applies to all federal sites and services that are publicly reachable over HTTP/HTTPS,not simply those intended for the public's use. Using a federally-issued certificate is a decision your agency could choose to make, but you should understand why this may or may not be a good idea. We previously manually trusted the Federal Common Policy CA, but removed it from our scanner's root store in September 2016 to support correct implementation of the policy.
 
-You can use our scanning tool,pshtt, to determine compliance-- when 'Domain Supports HTTPS', 'Domain Enforces HTTPS', and 'Domain Uses Strong HSTS' are all ""True"", that domain is M-15-13 compliant.
+You can use our scanning tool, pshtt, to determine compliance-- when 'Domain Supports HTTPS', 'Domain Enforces HTTPS', and 'Domain Uses Strong HSTS' are all 'True', that domain is M-15-13 compliant.
 
 #### Why would a vulnerability appear in one scan and not another?
 The reason we hope for is that you've remediated the problem, but it could be that our scans are blocked by a firewall, our scanning has triggered an IPS, or network conditions are hazardous to the life of the packets we've sent (i.e., "the Internet happens"). However, because we have no idea which of these is the case, the only way we can validate that a vulnerability has actually been resolved is by checking whether it is undetectable for a period of time, which we've set to 90 days. If a vulnerability appears by our scans to be flapping (detectable, then not; repeat ad infinitum), it wouldn't be correct to say each new appearance is day 1 in the life of the vulnerability. This is how the BOD Scorecard can suddenly be reporting a vulnerability as 30+ days old when no prior reports showed it: a vulnerability was present at a point in time (within the last 90 days), but not on any 'most recent scan' before a given report except the present one.
